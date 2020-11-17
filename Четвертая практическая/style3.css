@@ -1,0 +1,58 @@
+﻿.first{
+	background-color:blue;
+	color:red;
+}
+.first:after{
+	content:"\2019";
+}
+.first:before{
+	content:"\2018";
+}
+.second{
+	background-color:red;
+	color:white;
+	font-style:italic;
+	font-style:arial;
+}
+.second:after{
+	content:"\201A";
+}
+.second:before{
+	content:"\201A";
+}
+.third{
+	background-color:orange;
+	color:black;
+	font-style:oblique;
+	font-family:sans-serif;
+}
+.third:after{
+	content:"\201D";
+}
+.third:before{
+	content:"\201C";
+}
+.fourth{
+	background-color:violet;
+	color:white;
+	font-family:monospace;
+	font-style:oblique;
+}
+.fourth:after{
+	content:"\201E";
+}
+.fourth:before{
+	content:"\201E";
+}
+.fifth{
+	background-color:green;
+	color:white;
+	font-family: arial;
+	font-style:italic;
+}
+.fifth:after{
+	content:"\00bb";
+}
+.fifth:before{
+	content:"\00ab";
+}

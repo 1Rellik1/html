@@ -1,0 +1,39 @@
+﻿		h1{
+		color : #00ff00;
+		font-family:Papyrus,fantasy;
+		font-size: 50px;
+		}
+		.smth {
+		color : #00ff99;
+		font-family:Papyrus,fantasy;
+		font-size: 35px;
+		}
+		.smth1 {
+		color : #890089;
+		font-family:Georgia, 'Times New Roman', Times, serif;
+		}
+		.smth2 {
+		color : #999900;
+		font-family: Geneva, Arial, Helvetica, sans-serif;
+		}
+		button{
+			font-family: Geneva, Arial, Helvetica, sans-serif;
+			color : #000000;
+			background: linear-gradient(to top, #fefcef, #f1da36);
+			font-size:100px;
+		}
+		.hundai{
+			color : #aaafff;
+			font-family:Papyrus,fantasy;
+			font-size: 45px;
+		}
+		.hundaimain {
+		color : #ffaa00;
+		font-family: Geneva, Arial, Helvetica, sans-serif;
+		}
+		.frame{
+			background-color: #000000;
+			color : #00ff99;
+		font-family:Papyrus,fantasy;
+		font-size: 35px;
+		}

@@ -1,0 +1,7 @@
+﻿table.all:hover{
+	border: 2px solid black;
+}
+table.all{
+	border: none;
+	transition: border ease-out;
+}
