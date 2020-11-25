@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Заданаие 19 работа 6</title>
+	</head>
+	<body>
+	<input type="text" value="Даааа!" style="width: 100px" id = "input">
+		<br>
+		<br>
+			<button onclick="buttonClick()">Нажми на меня</button>
+			<button onclick="button1Click()">Нажми на меня</button>
+			<button onclick="button2Click()">Потом на меня</button>
+			<script>
+			function buttonClick(elem){
+			var elem = document.getElementById('input');
+			elem.value = 'Ой, я поменял свой текст и css!';
+			elem.style.width = '250px';
+			elem.style.height = '50px';
+			elem.style.color = 'red';
+			elem.style.borderRadius = '10px';
+			}
+			
+			function button1Click(elem){
+			var elem = document.getElementById('input');
+			elem.style.display = 'none';
+			}
+
+			function button2Click(elem){
+			var elem = document.getElementById('input');
+			elem.style.display = 'inline';
+			}
+			</script>
+	</body>
+</html>
