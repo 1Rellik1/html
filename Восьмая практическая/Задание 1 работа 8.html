@@ -1,0 +1,30 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+  <style>
+    #kia {
+      position: relative;
+      width: 200px;
+	  height: 150px;
+    }
+  </style>
+</head>
+<body>
+  <img id="kia" src="C:\Users\u-f-c\Desktop\web\4\html\Восьмая практическая\pictures\kia.png">
+  <script>
+    kia.onclick = function() {
+      let start = Date.now();
+
+      let timer = setInterval(function() {
+        let timePassed = Date.now() - start;
+
+        kia.style.left = timePassed / 5 + 'px';
+
+        if (timePassed > 2000) clearInterval(timer);
+
+      }, 20);
+    }
+  </script>
+</body>
+</html>
